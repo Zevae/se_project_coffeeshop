@@ -5,11 +5,6 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  background-color: #ffffff;
-  background-image: url("../images/background_header.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .header {
@@ -19,6 +14,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.header__image {
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nav {
@@ -140,6 +143,7 @@
 }
 
 .recipes__iframe {
+  border: 0;
   height: 273px;
   width: 480px;
 }
